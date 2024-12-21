@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('http://localhost8000/api/ingatlan', [IngatlanController::class, 'index']);
+Route::get('http://localhost:8000/api/ingatlan', [IngatlanController::class, 'index']);
